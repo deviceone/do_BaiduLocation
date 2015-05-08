@@ -94,6 +94,59 @@
 		A790D1641ADBCBBC00A14719 /* BMKVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKVersion.h; sourceTree = "<group>"; };
 		A790D1651ADBCBBC00A14719 /* libbaidumapapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbaidumapapi.a; sourceTree = "<group>"; };
 		A790D1661ADBCBBC00A14719 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		A7F307C01AFCC9AF004474FD /* doAssetLaunchImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doAssetLaunchImage.h; sourceTree = "<group>"; };
+		A7F307C11AFCC9AF004474FD /* doCallBackTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doCallBackTask.h; sourceTree = "<group>"; };
+		A7F307C21AFCC9AF004474FD /* doDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doDefines.h; sourceTree = "<group>"; };
+		A7F307C31AFCC9AF004474FD /* doEventCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doEventCenter.h; sourceTree = "<group>"; };
+		A7F307C41AFCC9AF004474FD /* doEventCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doEventCollection.h; sourceTree = "<group>"; };
+		A7F307C51AFCC9AF004474FD /* doFileCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doFileCacheHelper.h; sourceTree = "<group>"; };
+		A7F307C61AFCC9AF004474FD /* doIAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIAnimation.h; sourceTree = "<group>"; };
+		A7F307C71AFCC9AF004474FD /* doIApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIApp.h; sourceTree = "<group>"; };
+		A7F307C81AFCC9AF004474FD /* doIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIAppDelegate.h; sourceTree = "<group>"; };
+		A7F307C91AFCC9AF004474FD /* doIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIConfig.h; sourceTree = "<group>"; };
+		A7F307CA1AFCC9AF004474FD /* doIDataFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIDataFS.h; sourceTree = "<group>"; };
+		A7F307CB1AFCC9AF004474FD /* doIDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIDataSource.h; sourceTree = "<group>"; };
+		A7F307CC1AFCC9AF004474FD /* doIGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIGlobal.h; sourceTree = "<group>"; };
+		A7F307CD1AFCC9AF004474FD /* doIHashData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIHashData.h; sourceTree = "<group>"; };
+		A7F307CE1AFCC9AF004474FD /* doIHtmlJavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIHtmlJavaScript.h; sourceTree = "<group>"; };
+		A7F307CF1AFCC9AF004474FD /* doII18NEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doII18NEngine.h; sourceTree = "<group>"; };
+		A7F307D01AFCC9AF004474FD /* doIListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIListData.h; sourceTree = "<group>"; };
+		A7F307D11AFCC9AF004474FD /* doILogEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doILogEngine.h; sourceTree = "<group>"; };
+		A7F307D21AFCC9AF004474FD /* doIModuleExtManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIModuleExtManage.h; sourceTree = "<group>"; };
+		A7F307D31AFCC9AF004474FD /* doIMultitonModuleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIMultitonModuleFactory.h; sourceTree = "<group>"; };
+		A7F307D41AFCC9AF004474FD /* doIMultitonModuleGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIMultitonModuleGroup.h; sourceTree = "<group>"; };
+		A7F307D51AFCC9AF004474FD /* doInvokeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doInvokeResult.h; sourceTree = "<group>"; };
+		A7F307D61AFCC9AF004474FD /* doIOHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIOHelper.h; sourceTree = "<group>"; };
+		A7F307D71AFCC9AF004474FD /* doIPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIPage.h; sourceTree = "<group>"; };
+		A7F307D81AFCC9AF004474FD /* doIPageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIPageFactory.h; sourceTree = "<group>"; };
+		A7F307D91AFCC9AF004474FD /* doIPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIPageView.h; sourceTree = "<group>"; };
+		A7F307DA1AFCC9AF004474FD /* doIPageViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIPageViewFactory.h; sourceTree = "<group>"; };
+		A7F307DB1AFCC9AF004474FD /* doIScriptEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIScriptEngine.h; sourceTree = "<group>"; };
+		A7F307DC1AFCC9AF004474FD /* doIScriptEngineFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIScriptEngineFactory.h; sourceTree = "<group>"; };
+		A7F307DD1AFCC9AF004474FD /* doIScriptEngineGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIScriptEngineGroup.h; sourceTree = "<group>"; };
+		A7F307DE1AFCC9AF004474FD /* doISingletonModuleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doISingletonModuleFactory.h; sourceTree = "<group>"; };
+		A7F307DF1AFCC9AF004474FD /* doISingletonModuleGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doISingletonModuleGroup.h; sourceTree = "<group>"; };
+		A7F307E01AFCC9AF004474FD /* doISourceFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doISourceFS.h; sourceTree = "<group>"; };
+		A7F307E11AFCC9AF004474FD /* doIUIModuleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIUIModuleFactory.h; sourceTree = "<group>"; };
+		A7F307E21AFCC9AF004474FD /* doIUIModuleGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIUIModuleGroup.h; sourceTree = "<group>"; };
+		A7F307E31AFCC9AF004474FD /* doIUIModuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doIUIModuleView.h; sourceTree = "<group>"; };
+		A7F307E41AFCC9AF004474FD /* doJsonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doJsonHelper.h; sourceTree = "<group>"; };
+		A7F307E51AFCC9AF004474FD /* doModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doModule.h; sourceTree = "<group>"; };
+		A7F307E61AFCC9AF004474FD /* doModuleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doModuleBase.h; sourceTree = "<group>"; };
+		A7F307E71AFCC9AF004474FD /* doMultitonModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doMultitonModule.h; sourceTree = "<group>"; };
+		A7F307E81AFCC9AF004474FD /* doProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doProperty.h; sourceTree = "<group>"; };
+		A7F307E91AFCC9AF004474FD /* doScriptEngineHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doScriptEngineHelper.h; sourceTree = "<group>"; };
+		A7F307EA1AFCC9AF004474FD /* doServiceContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doServiceContainer.h; sourceTree = "<group>"; };
+		A7F307EB1AFCC9AF004474FD /* doSingletonModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doSingletonModule.h; sourceTree = "<group>"; };
+		A7F307EC1AFCC9AF004474FD /* doSingletonModuleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doSingletonModuleHelper.h; sourceTree = "<group>"; };
+		A7F307ED1AFCC9AF004474FD /* doSourceFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doSourceFile.h; sourceTree = "<group>"; };
+		A7F307EE1AFCC9AF004474FD /* doStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doStack.h; sourceTree = "<group>"; };
+		A7F307EF1AFCC9AF004474FD /* doTextHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doTextHelper.h; sourceTree = "<group>"; };
+		A7F307F01AFCC9AF004474FD /* doUIContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doUIContainer.h; sourceTree = "<group>"; };
+		A7F307F11AFCC9AF004474FD /* doUIModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doUIModule.h; sourceTree = "<group>"; };
+		A7F307F21AFCC9AF004474FD /* doUIModuleCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doUIModuleCollection.h; sourceTree = "<group>"; };
+		A7F307F31AFCC9AF004474FD /* doUIModuleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doUIModuleHelper.h; sourceTree = "<group>"; };
+		A7F307F41AFCC9AF004474FD /* NSData+DoBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+DoBase64.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +201,7 @@
 		A790D1261ADBCBBC00A14719 /* thirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				A7F307BF1AFCC9AF004474FD /* Header */,
 				A790D1271ADBCBBC00A14719 /* inc */,
 				A790D1651ADBCBBC00A14719 /* libbaidumapapi.a */,
 				A790D1661ADBCBBC00A14719 /* mapapi.bundle */,
@@ -222,6 +276,67 @@
 				A790D1641ADBCBBC00A14719 /* BMKVersion.h */,
 			);
 			path = inc;
+			sourceTree = "<group>";
+		};
+		A7F307BF1AFCC9AF004474FD /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				A7F307C01AFCC9AF004474FD /* doAssetLaunchImage.h */,
+				A7F307C11AFCC9AF004474FD /* doCallBackTask.h */,
+				A7F307C21AFCC9AF004474FD /* doDefines.h */,
+				A7F307C31AFCC9AF004474FD /* doEventCenter.h */,
+				A7F307C41AFCC9AF004474FD /* doEventCollection.h */,
+				A7F307C51AFCC9AF004474FD /* doFileCacheHelper.h */,
+				A7F307C61AFCC9AF004474FD /* doIAnimation.h */,
+				A7F307C71AFCC9AF004474FD /* doIApp.h */,
+				A7F307C81AFCC9AF004474FD /* doIAppDelegate.h */,
+				A7F307C91AFCC9AF004474FD /* doIConfig.h */,
+				A7F307CA1AFCC9AF004474FD /* doIDataFS.h */,
+				A7F307CB1AFCC9AF004474FD /* doIDataSource.h */,
+				A7F307CC1AFCC9AF004474FD /* doIGlobal.h */,
+				A7F307CD1AFCC9AF004474FD /* doIHashData.h */,
+				A7F307CE1AFCC9AF004474FD /* doIHtmlJavaScript.h */,
+				A7F307CF1AFCC9AF004474FD /* doII18NEngine.h */,
+				A7F307D01AFCC9AF004474FD /* doIListData.h */,
+				A7F307D11AFCC9AF004474FD /* doILogEngine.h */,
+				A7F307D21AFCC9AF004474FD /* doIModuleExtManage.h */,
+				A7F307D31AFCC9AF004474FD /* doIMultitonModuleFactory.h */,
+				A7F307D41AFCC9AF004474FD /* doIMultitonModuleGroup.h */,
+				A7F307D51AFCC9AF004474FD /* doInvokeResult.h */,
+				A7F307D61AFCC9AF004474FD /* doIOHelper.h */,
+				A7F307D71AFCC9AF004474FD /* doIPage.h */,
+				A7F307D81AFCC9AF004474FD /* doIPageFactory.h */,
+				A7F307D91AFCC9AF004474FD /* doIPageView.h */,
+				A7F307DA1AFCC9AF004474FD /* doIPageViewFactory.h */,
+				A7F307DB1AFCC9AF004474FD /* doIScriptEngine.h */,
+				A7F307DC1AFCC9AF004474FD /* doIScriptEngineFactory.h */,
+				A7F307DD1AFCC9AF004474FD /* doIScriptEngineGroup.h */,
+				A7F307DE1AFCC9AF004474FD /* doISingletonModuleFactory.h */,
+				A7F307DF1AFCC9AF004474FD /* doISingletonModuleGroup.h */,
+				A7F307E01AFCC9AF004474FD /* doISourceFS.h */,
+				A7F307E11AFCC9AF004474FD /* doIUIModuleFactory.h */,
+				A7F307E21AFCC9AF004474FD /* doIUIModuleGroup.h */,
+				A7F307E31AFCC9AF004474FD /* doIUIModuleView.h */,
+				A7F307E41AFCC9AF004474FD /* doJsonHelper.h */,
+				A7F307E51AFCC9AF004474FD /* doModule.h */,
+				A7F307E61AFCC9AF004474FD /* doModuleBase.h */,
+				A7F307E71AFCC9AF004474FD /* doMultitonModule.h */,
+				A7F307E81AFCC9AF004474FD /* doProperty.h */,
+				A7F307E91AFCC9AF004474FD /* doScriptEngineHelper.h */,
+				A7F307EA1AFCC9AF004474FD /* doServiceContainer.h */,
+				A7F307EB1AFCC9AF004474FD /* doSingletonModule.h */,
+				A7F307EC1AFCC9AF004474FD /* doSingletonModuleHelper.h */,
+				A7F307ED1AFCC9AF004474FD /* doSourceFile.h */,
+				A7F307EE1AFCC9AF004474FD /* doStack.h */,
+				A7F307EF1AFCC9AF004474FD /* doTextHelper.h */,
+				A7F307F01AFCC9AF004474FD /* doUIContainer.h */,
+				A7F307F11AFCC9AF004474FD /* doUIModule.h */,
+				A7F307F21AFCC9AF004474FD /* doUIModuleCollection.h */,
+				A7F307F31AFCC9AF004474FD /* doUIModuleHelper.h */,
+				A7F307F41AFCC9AF004474FD /* NSData+DoBase64.h */,
+			);
+			name = Header;
+			path = ../doLib/doCore/Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,16 +483,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					../doLib/doCore,
-					/Users/guoxj/Downloads/doExt_do_BaiduLocation/thirdLib,
-				);
+				LIBRARY_SEARCH_PATHS = "../**";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = DoBaiduLocation_SM;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = ../doLib/doCore/Header;
+				USER_HEADER_SEARCH_PATHS = "../**";
 			};
 			name = Debug;
 		};
@@ -385,16 +497,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					../doLib/doCore,
-					/Users/guoxj/Downloads/doExt_do_BaiduLocation/thirdLib,
-				);
+				LIBRARY_SEARCH_PATHS = "../**";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = DoBaiduLocation_SM;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = ../doLib/doCore/Header;
+				USER_HEADER_SEARCH_PATHS = "../**";
 			};
 			name = Release;
 		};

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "doIAppDelegate.h"
-#import "BMapKit.h"
-@interface do_BaiduLocation_App : NSObject<doIAppDelegate, BMKGeneralDelegate>
+
+@interface do_BaiduLocation_App : NSObject<doIAppDelegate>
 
 @end
