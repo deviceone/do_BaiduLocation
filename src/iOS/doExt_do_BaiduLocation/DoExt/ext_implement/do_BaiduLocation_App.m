@@ -15,6 +15,7 @@
 @end
 
 @implementation do_BaiduLocation_App
+@synthesize ThridPartyID;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     BMKMapManager *_mapManager = [[BMKMapManager alloc]init];
@@ -22,6 +23,16 @@
     [_mapManager start:_BMKMapKey generalDelegate:self];
     return YES;
 }
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url fromThridParty:(NSString *)_id
+{
+    return NO;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation fromThridParty:(NSString *)_id
+{
+    return NO;
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     

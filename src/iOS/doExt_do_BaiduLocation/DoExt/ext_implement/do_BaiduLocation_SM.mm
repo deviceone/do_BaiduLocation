@@ -11,7 +11,7 @@
 #import "doScriptEngineHelper.h"
 #import "doIScriptEngine.h"
 #import "doInvokeResult.h"
-#import "doJsonNode.h"
+#import "doJsonHelper.h"
 #import "BMapKit.h"
 @interface do_BaiduLocation_SM() <do_BaiduLocation_ISM, BMKLocationServiceDelegate, BMKGeoCodeSearchDelegate>
 @end
@@ -20,7 +20,7 @@
     BMKLocationService *_locService;
     BMKGeoCodeSearch *_geocodesearch;
     CLLocationCoordinate2D _coordinate;
-    doJsonNode *_dictParas;
+    NSDictionary *_dictParas;
     id<doIScriptEngine> _scritEngine;
     NSString *_callbackName;
 }
@@ -76,7 +76,7 @@
     //自己的代码实现
     
     _callbackName = [parms objectAtIndex:2];
-    NSString *_model = [_dictParas GetOneText:@"model" :@"gps" ];
+    NSString *_model = [doJsonHelper GetOneText:_dictParas :@"model" :@"gps"];
     if ([_model isEqualToString:@"accuracy"])
     {
         [BMKLocationService setLocationDesiredAccuracy:kCLLocationAccuracyBest];
@@ -161,14 +161,13 @@
         _pointAnnotation.coordinate = result.location;
         _pointAnnotation.title = result.address;
         
-        doJsonNode *_node = [[doJsonNode alloc]init];
-        [_node SetOneText:@"type" :@"bd-0911"];
-        [_node SetOneText:@"latitude" :[NSString stringWithFormat:@"%f",_pointAnnotation.coordinate.latitude]];
-        [_node SetOneText:@"longitude" :[NSString stringWithFormat:@"%f",_pointAnnotation.coordinate.longitude]];
-        [_node SetOneText:@"address" :_pointAnnotation.title];
-        
+        NSMutableDictionary *_dict = [[NSMutableDictionary alloc]init];
+        [_dict setValue:@"bd-0911" forKey:@"type"];
+        [_dict setValue:[NSString stringWithFormat:@"%f",_pointAnnotation.coordinate.latitude] forKey:@"latitude"];
+        [_dict setValue:[NSString stringWithFormat:@"%f",_pointAnnotation.coordinate.longitude] forKey:@"longitude"];
+        [_dict setValue:_pointAnnotation.title forKey:@"address"];
         doInvokeResult *_invokeResult = [[doInvokeResult alloc] init:nil];
-        [_invokeResult SetResultNode: _node];
+        [_invokeResult SetResultNode: _dict];
         [_scritEngine Callback:_callbackName :_invokeResult];
     }
 }
@@ -185,14 +184,13 @@
         BMKPointAnnotation* _pointAnnotation = [[BMKPointAnnotation alloc]init];
         _pointAnnotation.coordinate = result.location;
         _pointAnnotation.title = result.address;
-        doJsonNode *_node = [[doJsonNode alloc]init];
-        [_node SetOneText:@"type" :@"bd-0911"];
-        [_node SetOneText:@"latitude" :[NSString stringWithFormat:@"%f",_pointAnnotation.coordinate.latitude]];
-        [_node SetOneText:@"longitude" :[NSString stringWithFormat:@"%f",_pointAnnotation.coordinate.longitude]];
-        [_node SetOneText:@"address" :_pointAnnotation.title];
-        
+        NSMutableDictionary *_dict = [[NSMutableDictionary alloc]init];
+        [_dict setValue:@"bd-0911" forKey:@"type"];
+        [_dict setValue:[NSString stringWithFormat:@"%f",_pointAnnotation.coordinate.latitude] forKey:@"latitude"];
+        [_dict setValue:[NSString stringWithFormat:@"%f",_pointAnnotation.coordinate.longitude] forKey:@"longitude"];
+        [_dict setValue:_pointAnnotation.title forKey:@"address"];
         doInvokeResult *_invokeResult = [[doInvokeResult alloc] init:nil];
-        [_invokeResult SetResultNode: _node];
+        [_invokeResult SetResultNode: _dict];
         [_scritEngine Callback:_callbackName :_invokeResult];
     }
 }
