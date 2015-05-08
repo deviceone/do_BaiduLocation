@@ -12,7 +12,9 @@
 #import "doIScriptEngine.h"
 #import "doInvokeResult.h"
 #import "doJsonNode.h"
-
+#import "BMapKit.h"
+@interface do_BaiduLocation_SM() <do_BaiduLocation_ISM, BMKLocationServiceDelegate, BMKGeoCodeSearchDelegate>
+@end
 @implementation do_BaiduLocation_SM
 {
     BMKLocationService *_locService;
@@ -160,6 +162,7 @@
         _pointAnnotation.title = result.address;
         
         doJsonNode *_node = [[doJsonNode alloc]init];
+        [_node SetOneText:@"type" :@"bd-0911"];
         [_node SetOneText:@"latitude" :[NSString stringWithFormat:@"%f",_pointAnnotation.coordinate.latitude]];
         [_node SetOneText:@"longitude" :[NSString stringWithFormat:@"%f",_pointAnnotation.coordinate.longitude]];
         [_node SetOneText:@"address" :_pointAnnotation.title];
@@ -183,6 +186,7 @@
         _pointAnnotation.coordinate = result.location;
         _pointAnnotation.title = result.address;
         doJsonNode *_node = [[doJsonNode alloc]init];
+        [_node SetOneText:@"type" :@"bd-0911"];
         [_node SetOneText:@"latitude" :[NSString stringWithFormat:@"%f",_pointAnnotation.coordinate.latitude]];
         [_node SetOneText:@"longitude" :[NSString stringWithFormat:@"%f",_pointAnnotation.coordinate.longitude]];
         [_node SetOneText:@"address" :_pointAnnotation.title];

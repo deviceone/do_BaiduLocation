@@ -8,6 +8,6 @@
 
 #import "doSingletonModule.h"
 #import "do_BaiduLocation_ISM.h"
-#import "BMapKit.h"
-@interface do_BaiduLocation_SM : doSingletonModule<do_BaiduLocation_ISM, BMKLocationServiceDelegate, BMKGeoCodeSearchDelegate>
+
+@interface do_BaiduLocation_SM : doSingletonModule
 @end
